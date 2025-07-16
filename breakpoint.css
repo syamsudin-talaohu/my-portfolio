@@ -43,10 +43,11 @@
     top: 11rem;
     right: 0;
     font-size: 25px;
-    width: 100%;
+    width: 100vw; /* Batasin ke lebar layar */
     box-shadow: 6px 6px 12px #1f242d, -6px -6px 12px #1f242d;
     background: #323946;
-    min-width: 300px;
+    max-width: 100%;
+    min-width: unset; /* hilangkan batas minimum */
     height: 30rem;
     text-align: center;
     border-radius: 0.2rem;
@@ -264,3 +265,16 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 500px) {
+  .modal-content {
+    width: 95vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    font-size: 0.9rem;
+  }
+  .modal-gallery img {
+    width: 100%;
+  }
+}
+

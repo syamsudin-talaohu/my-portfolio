@@ -266,4 +266,25 @@
   }
 }
 
+@media (max-width: 429px) {
+  .header {
+    padding: 1rem 1rem; /* kurangi padding dari 9% */
+  }
+
+  .navbar {
+    width: 100vw;
+    max-width: 100%;
+    padding: 2rem 0;
+    min-width: unset;
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+.navbar.active { 
+  overflow-x: hidden;
+}
+
 

@@ -278,11 +278,14 @@
     min-width: unset;
     overflow-x: hidden;
   }
+  
+.navbar.active {
+    overflow-x: hidden;
+}
 
   body {
     overflow-x: hidden;
   }
 }
-
 
 

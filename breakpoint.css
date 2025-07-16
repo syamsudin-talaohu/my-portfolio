@@ -266,15 +266,4 @@
   }
 }
 
-@media (max-width: 500px) {
-  .modal-content {
-    width: 95vw;
-    max-height: 90vh;
-    overflow-y: auto;
-    font-size: 0.9rem;
-  }
-  .modal-gallery img {
-    width: 100%;
-  }
-}
 
